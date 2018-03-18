@@ -141,6 +141,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_marginLeft="22dp"
+                    android:id="@+id/btnview"
                     android:layout_height="wrap_content"
                     android:text="VIEW"/>
 
@@ -148,6 +149,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_marginRight="22dp"
+                    android:id="@+id/btnshare"
                     android:layout_height="wrap_content"
                     android:text="SHARE"/>
 
