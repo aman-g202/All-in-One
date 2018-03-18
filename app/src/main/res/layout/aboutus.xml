@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="6dp"
+        android:layout_margin="8dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="All in One News Paper"
+                android:gravity="center"
+                android:id="@+id/newspaper"
+                android:textStyle="bold"
+                android:textColor="#faf8f8"
+                android:background="#006064"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_below="@id/newspaper"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content"
+                android:text="asdbffbdfbdjkfbdsjfvjfb1
+jhfbhjdbfhjbfhjdbfjfbdfbndfbmdnfbfbfbgngfbbgf
+hdbfhjgfbhjgfbhejgfbshdbfhbfhjbgfjhgfbgfb
+ajhbfhjbfhjbfjhfbgjhbfjhfbjhgfbjhgf
+asjfbjhgfblhwebfshdfbhjwerfbsdnfb
+
+akjfbhfbahbfhsbfhbfewhfbfjkbkef
+awehfbhwejfbhjwbefrnwbfrhewfbwhefb
+
+fewhfhbherbfhweqbrhwerhwerrhwe"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_below="@id/card_view_aboutus"
+        android:layout_marginRight="11dp"
+        android:layout_marginLeft="11dp"
+        android:drawableLeft="@drawable/ic_favorite_black_24dp"
+        android:drawablePadding="1dp"
+        android:gravity="center"
+        android:paddingLeft="110dip"
+        android:paddingRight="85dip"
+        android:text="Rate Our App"
+        android:textStyle="bold"
+        android:layout_height="50dp" />
+
+</RelativeLayout>
